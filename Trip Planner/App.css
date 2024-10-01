@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    font-family: "Fredoka", sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.main-div{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.backgroundimg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.background-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(1px);
+}
+
+.nav-bar{
+    z-index: 1000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+}
+.Brand-name{
+    margin-left: 200px;
+    
+}
+
+#para{
+    color: white;
+    font-size: 24px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-right: 200px;
+}
+
+.sec-div{
+    position: absolute;
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-section{
+    width: 880px;
+    height: 230px;
+    background-color: #e5e4e497;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 14px;
+    position: absolute;
+    top: 100px;
+    align-items: center;
+    font-size: 13px;
+    color: black;
+    font-family: "Fredoka", sans-serif;
+    font-size: 33px;
+    row-gap: 20px;
+}
+
+
+
+.nav-bar-scroll{
+    background-color: rgba(4, 4, 4, 0.902);
+    color: black;
+    z-index: 1000;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    flex: 1;
+}
+
+.transport{
+    width: 400px;
+    height: 60px;
+    background-color: #b5b5b5f1;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 0px 0px 1.2px rgba(0,0,0,0.7);
+    top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+#icon{
+    width: 25px;
+}
+
+#mini-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#mini-div:hover {
+    color: #000000; /* Optional color change when hovering */
+}
+
+#mini-div:hover-underline {
+    text-decoration: none; /* Remove any default text decoration */
+    border-bottom: 2px solid transparent; /* Initially no underline */
+    transition: border-bottom 0.3s ease; /* Smooth underline transition */
+}
+
+#mini-div.hover-underline:hover {
+    border-bottom: 2px solid white; /* Add underline on hover */
+}
+
+#transport-name{
+    font-size: 13px;
+    color: black;
+    font-family: "Fredoka", sans-serif;
+}
+
+#from{
+    color: black;
+}
+
+.destination-div-to{
+    color: black;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+}
+.destination-div{
+    font-size: 30px;
+    font-weight: 550;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.4s;
+}
+.input-div:hover{
+    background-color: rgba(217, 217, 217, 0.783);
+    border-radius: 10px 0px 0px 10px;
+}
+.input-row{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 500px;
+    height: 100px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,2.5);
+    border-radius: 10px;
+    
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    top: 370px;
+    bottom: 90px;
+    left: 450px;
+    border-radius: 5px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    height: 40px;
+}
+.input-box{
+    width: 220px;
+    height: 30px;
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    border: none;
+    background-color: white;
+}
+.search-icon{
+    width: 10px;
+    flex: 1;
+    
+}
+::placeholder{
+    color: black;
+}
+#Search-button{
+    background-color: transparent;
+    box-shadow: 0px 0px 2px rgba(0,0,0,2.5);
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Fredoka", sans-serif;
+    transition: background-color 0.4s;
+}
+
+#Search-button:hover{
+    background-color: rgba(217, 217, 217, 0.783);
+}
